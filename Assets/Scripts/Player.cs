@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 
     bool _isPlayerTurn;
 
-    int Job;
+    int _Job;
 
     private void Start()
     {

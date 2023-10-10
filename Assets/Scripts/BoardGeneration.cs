@@ -14,7 +14,7 @@ public class BoardGeneration : MonoBehaviour
 
     Quaternion Rotation;
     // Start is called before the first frame update
-    void Start()
+    public void Generate()
     {
         //Iinitializes starting point for tile generation
         x = ((float)(-9) / 2);
@@ -84,11 +84,5 @@ public class BoardGeneration : MonoBehaviour
         }
 
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
