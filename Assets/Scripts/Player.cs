@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
 
     bool _isPlayerTurn;
 
+    int Job;
+
     private void Start()
     {
         _trans = GetComponent<Transform>();
@@ -53,4 +55,15 @@ public class Player : MonoBehaviour
     {
         _currentTile = currentTile;
     }
+
+    public int GetJob()
+    {
+        return _Job;
+    }
+
+    public void SetJob(int job)
+    {
+        _Job = job; 
+    }
+    
 }
